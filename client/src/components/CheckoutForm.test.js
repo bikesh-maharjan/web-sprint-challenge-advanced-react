@@ -41,5 +41,5 @@ test("form shows success message on submit with form details", async () => {
 
   // assert that the success message has posted
 
-  expect(await screen.findByTestId('successMessage')).toBeInTheDocument();
+  expect(await screen.findByTestId("successMessage")).toBeInTheDocument();
 });
